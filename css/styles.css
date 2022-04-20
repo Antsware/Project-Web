@@ -16,10 +16,21 @@ h1 {
     font-size: 54px;
     font-weight: bold;
     position: absolute;
-    top: 43%;
-    left: 26%;
+    top: 33%;
+    left: 18%;
+    color: white;
+    
+}
+
+.banner-titlea {
+    font-size: 54px;
+    font-weight: bold;
+    position: absolute;
+    top: 33%;
+    left: 37%;
     color: white;
 }
+
 
 .dropdown {
     position: relative;
@@ -27,15 +38,21 @@ h1 {
     margin: 1em 2em;
 }
 
+
 .dropdown-menu {
     position: absolute;
     left: 0;
     top: calc(100% +  .25rem);
-    background-color: white;
+    background-color: #33ff4f;
     padding: .7rem;
     border-radius: .25rem;
     box-shadow: 0 2px 5px 0 rgba( 0 0, 0, .1);
     opacity: 0;
+    color: black;
+}
+
+.dropdown-menu a:hover {
+    background-color: white;
 }
 
 .dropdown > .link:focus + .dropdown-menu {
@@ -48,12 +65,18 @@ nav {
     float: right;
     margin: -27em 1em;
     border-radius: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
 }
 
 nav ul {
     margin: 0;
-    text-align: right;
-    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+nav ul a:hover {
+    background-color: white;
 }
 /*
 nav ul li {
@@ -62,17 +85,23 @@ nav ul li {
 
 nav li {
     display: inline-block;
-    margin: 1em 3em;
+    margin-left: -14px;
+    margin-top: 25px;
 }
 
 nav li a {
     display: block;
-    padding: 1em;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
+
+
+/*
 li button {
     padding: 3em;
-}
+}*/
 
 
 
@@ -86,17 +115,13 @@ input {
     background: none;
     border: none;
     text-decoration: none;
-    color: #79f694;
+    color: #33ff4f;
     font-family: inherit;
     font-size: inherit;
     cursor: pointer;
     margin: 7px;
 }
 
-
-.link:hover {
-    color: black;
-}
 
 #banner {
     height: 280px;
@@ -116,13 +141,13 @@ main {
 }
 
 .buy {
-    color: orange;
+    color: #33ff4f;
     font-size: 30px;
     font-weight: bold;
 }
 
 .price {
-    color: orange;
+    color: #0db0be;
     font-weight: bold;
 }
 
@@ -140,10 +165,11 @@ main {
 #title {
     padding: 0 20em;
     margin: 60px;
+    background-color: #0db0be;
 }
 
 footer {
-    background-color: #f3f3f3;
+    background-color: #0db0be;
     ;
 }
 
@@ -169,15 +195,15 @@ footer p {
     font-weight: bold;
    
 }
-
+/*
 #apple-logo  {
     width: 400px;
     height: 200px;
     padding: 0 20em;
-}
+}*/
 
 .product-title  {
-    padding: 0 20em;
+    padding: 0 24em;
 }
 
 header p {
