@@ -334,6 +334,47 @@ header p {
         display: block;
     }
 
+    .item {
+        width: 20em;
+    }
+
+    #container {
+        text-align: left;
+        display: grid;
+        align-content: center;
+        grid-template-columns: auto;
+    }
+
+    #about {
+        margin: 0 0;
+    }
+
+    main {
+        padding: 0 5%;
+    }
+
+    #message {
+        width: 76%;
+        margin-left: 3em;
+    }
+
+    #send {
+        margin-left: 11em;
+    }
+
+    iframe {
+        margin: 0 0;
+        width: 93%;
+    }
+
+    #info {
+        margin: 7em 4em;
+    }
+
+    .product-title {
+        padding: 0 6em;
+    }
+
 }
 
 /* Median Query for Desktop Viewport*/
